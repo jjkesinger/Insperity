@@ -1,8 +1,8 @@
 {
-  "name": "shell",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "benefits-ecmt",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/shell/src",
+  "sourceRoot": "apps/benefits/ecmt/src",
   "prefix": "nsp",
   "targets": {
     "build": {
@@ -11,24 +11,24 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "dist/apps/shell",
-        "index": "apps/shell/src/index.html",
-        "main": "apps/shell/src/main.ts",
+        "outputPath": "dist/apps/benefits/ecmt",
+        "index": "apps/benefits/ecmt/src/index.html",
+        "main": "apps/benefits/ecmt/src/main.ts",
         "polyfills": [
           "zone.js"
         ],
-        "tsConfig": "apps/shell/tsconfig.app.json",
+        "tsConfig": "apps/benefits/ecmt/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "apps/shell/src/favicon.ico",
-          "apps/shell/src/assets"
+          "apps/benefits/ecmt/src/favicon.ico",
+          "apps/benefits/ecmt/src/assets"
         ],
         "styles": [
-          "apps/shell/src/styles.scss"
+          "apps/benefits/ecmt/src/styles.scss"
         ],
         "scripts": [],
         "customWebpackConfig": {
-          "path": "apps/shell/webpack.config.js"
+          "path": "apps/benefits/ecmt/webpack.config.js"
         },
         "commonChunk": false
       },
@@ -48,7 +48,7 @@
           ],
           "outputHashing": "all",
           "customWebpackConfig": {
-            "path": "apps/shell/webpack.prod.config.js"
+            "path": "apps/benefits/ecmt/webpack.prod.config.js"
           }
         },
         "development": {
@@ -66,34 +66,31 @@
       "executor": "@nrwl/angular:webpack-dev-server",
       "configurations": {
         "production": {
-          "browserTarget": "shell:build:production"
+          "browserTarget": "benefits-ecmt:build:production"
         },
         "development": {
-          "browserTarget": "shell:build:development"
+          "browserTarget": "benefits-ecmt:build:development"
         }
       },
       "defaultConfiguration": "development",
       "options": {
-        "port": 4200,
-        "publicHost": "http://localhost:4200"
+        "port": 4201,
+        "publicHost": "http://localhost:4201"
       }
     },
     "extract-i18n": {
       "executor": "ngx-build-plus:extract-i18n",
       "options": {
-        "browserTarget": "shell:build",
-        "extraWebpackConfig": "apps/shell/webpack.config.js"
+        "browserTarget": "benefits-ecmt:build",
+        "extraWebpackConfig": "apps/benefits/ecmt/webpack.config.js"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
       "options": {
         "lintFilePatterns": [
-          "apps/shell/**/*.ts",
-          "apps/shell/**/*.html"
+          "apps/benefits/ecmt/**/*.ts",
+          "apps/benefits/ecmt/**/*.html"
         ]
       }
     },
@@ -103,7 +100,7 @@
         "{workspaceRoot}/coverage/{projectRoot}"
       ],
       "options": {
-        "jestConfig": "apps/shell/jest.config.ts",
+        "jestConfig": "apps/benefits/ecmt/jest.config.ts",
         "passWithNoTests": true
       }
     }
