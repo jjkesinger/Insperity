@@ -11,7 +11,7 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "dist/apps/benefits/ecmt",
+        "outputPath": "dist/apps/benefits-ecmt",
         "index": "apps/benefits/ecmt/src/index.html",
         "main": "apps/benefits/ecmt/src/main.ts",
         "polyfills": [

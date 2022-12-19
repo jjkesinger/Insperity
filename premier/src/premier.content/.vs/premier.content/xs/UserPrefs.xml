@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{6C29315D-7983-4599-B44E-917110953E35}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="premier.content" expanded="True">
-            <Node name="premier.content.api" expanded="True" />
-          </Node>
+          <Node name="premier.content" expanded="True" />
         </State>
       </Pad>
     </Pads>

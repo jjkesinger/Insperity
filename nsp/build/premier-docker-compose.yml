@@ -1,0 +1,25 @@
+version: '3.3'    
+services:
+  nsp-premier-shell:
+    container_name: nsp-premier-shell
+    image: nsp-premier-shell
+    build:
+      context: ../src/nsp
+      dockerfile: ./apps/shell/dockerfile
+    ports:
+      - 8080:80
+    networks:
+      - premier-network
+  nsp-benefits-ecmt:
+    container_name: nsp-premier-benefits-ecmt
+    image: nsp-premier-benefits-ecmt
+    build:
+      context: ../src/nsp
+      dockerfile: ./apps/benefits/ecmt/dockerfile
+    ports:
+      - 8081:80
+    networks:
+      - premier-network
+networks:
+  premier-network:
+    driver: bridge
