@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/webgateway/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
+      "projectUniqueName": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
       "projectName": "premier.gateway.web.api",
-      "projectPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/webgateway/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
+      "projectPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
       "packagesPath": "/Users/johnkesinger/.nuget/packages/",
-      "outputPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/webgateway/premier.gateway/premier.gateway.web.api/obj/",
+      "outputPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.gateway/premier.gateway.web.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/johnkesinger/.nuget/NuGet/NuGet.Config"

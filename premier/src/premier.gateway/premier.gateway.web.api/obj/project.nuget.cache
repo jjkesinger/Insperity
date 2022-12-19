@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LHMBbML7yuumxrAp+ERCzMn31nLOsRqFEGMFfo68pQ6TtzD9fjs5mANNvPmWcAqq0oAZbxwIGJ+xgSoC9kKjgA==",
+  "dgSpecHash": "oX7NipT4w4DcDV0/YG4EBxthhO7/O0Z6oxZq+V9pkdhCdAlb3pw16Ux+lNmp/Af1NbAj580Kgozff0sQrv+81w==",
   "success": true,
-  "projectFilePath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/webgateway/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
+  "projectFilePath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.gateway/premier.gateway.web.api/premier.gateway.web.api.csproj",
   "expectedPackageFiles": [
     "/Users/johnkesinger/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/johnkesinger/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

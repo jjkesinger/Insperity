@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/premier.gateway.web.api.props" />
+</Project>

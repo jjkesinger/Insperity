@@ -1,0 +1,9 @@
+FROM nspdemo.azurecr.io/nodejs/node:19 as node
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+CMD ["npm", "run", "start", "app-1"]

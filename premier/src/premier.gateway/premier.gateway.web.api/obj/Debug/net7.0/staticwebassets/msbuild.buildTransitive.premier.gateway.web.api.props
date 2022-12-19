@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/premier.gateway.web.api.props" />
+</Project>
