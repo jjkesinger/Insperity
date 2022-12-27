@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  premier.content.api:
-    image: ${DOCKER_REGISTRY-}premiercontent
-    build:
-      context: .
-      dockerfile: premier.content.api/Dockerfile

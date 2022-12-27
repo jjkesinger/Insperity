@@ -1,5 +1,5 @@
 ﻿
-namespace premier.content.api;
+namespace Premier.Content.Api;
 
 public class Program
 {

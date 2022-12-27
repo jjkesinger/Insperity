@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  premier.gateway.web.api:
-    image: ${DOCKER_REGISTRY-}premiergatewayweb
-    build:
-      context: .
-      dockerfile: premier.gateway.web.api/Dockerfile

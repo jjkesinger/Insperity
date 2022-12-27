@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace premier.content.api.Controllers;
+namespace Premier.Content.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.content/premier.content.api/premier.content.api.csproj",
-      "projectName": "premier.content.api",
-      "projectPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.content/premier.content.api/premier.content.api.csproj",
+      "projectUniqueName": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/Premier.Content/Premier.Content.Api/Premier.Content.Api.csproj",
+      "projectName": "Premier.Content.Api",
+      "projectPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/Premier.Content/Premier.Content.Api/Premier.Content.Api.csproj",
       "packagesPath": "/Users/johnkesinger/.nuget/packages/",
-      "outputPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/premier.content/premier.content.api/obj/",
+      "outputPath": "/Users/johnkesinger/Projects/insperity/insperity/premier/src/Premier.Content/Premier.Content.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/johnkesinger/.nuget/NuGet/NuGet.Config"
