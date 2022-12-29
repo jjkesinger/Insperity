@@ -18,4 +18,3 @@ All APIs secured. In this case, we use a jwt to secure api endpoints.
 * New policies/procedures/direction on where the company is headed from an IT perspective could be better communicated to department.
 * Retries, rate limits
 * Challenges: source of truth with shared data (i.e. company info, benefits packages, pay frequency etc)
-
